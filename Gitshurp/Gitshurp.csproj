@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="HtmlAgilityPack" Version="1.11.31" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <Reference Include="MyAssembly">
+      <HintPath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.2.8\Microsoft.IntelliTrace.TelemetryObserver.Common.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  
+</Project>
